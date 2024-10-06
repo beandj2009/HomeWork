@@ -1,0 +1,9 @@
+.hhbox{ 
+    width: 180px; height: 250px;border: 1px solid blue; text-align: center;
+    padding-top: 30px;
+
+}
+.hhbox:hover{
+    border-radius: 50px; border: 3px red double;
+}
+.hhbox-image{width: 160px; }

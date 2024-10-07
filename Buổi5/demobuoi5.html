@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <STYle>
+       .frm{
+            float: none;
+            text-align: center;
+            background-color: white;
+            text-decoration-color: red;
+            border: 1px solid red;
+            border-radius: 5px;
+        }
+    </STYle>
+</head>
+<body>
+    <form name="LogInFrm" action="LogInConfig.php" class="frm">
+    <h2>Log In</h2>
+    UserName:
+    <input type="text" name="UserName" placeholder="Student Id">
+    <br />
+    Password:
+    <input type="password" name="Password" placeholder="password">
+    <br />
+    <button>Log In</button>
+    <button type="reset">Redo</button>
+    <br />
+    <input type="radio" checked name="Sex" value="0" />Men
+    <input type="radio" name="Sex" value="1" />Women
+    <input type="radio" name="Sex" value="1" />Other
+    <br />
+    <input type="checkbox" name="Fav" value="Eat">Eat 
+    <input type="checkbox" name="Fav" value="Sleep">Sleep
+    <input type="checkbox" name="Fav" value="Sports">Sports
+    <input type="checkbox" name="Fav" value="Games">Games
+    <br />
+    Province:
+    <select name="Provinces">
+        <option value="HN">Ha Noi</option>
+        <option value="DT">Dong Thap</option>
+        <option value="HD">Hai Duong</option>
+        <option value="TPHCM">Thanh Pho Ho Chi Minh</option>
+        <option value="CM">Ca Mau</option>
+    </select>
+    </form>
+    
+</body>
+</html>
